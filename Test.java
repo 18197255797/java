@@ -1,16 +1,14 @@
-public class Test{
-    public static void main(String[] args){
-        int a = 3;
-        int b = 4;
-        // int tmp = 0;//简单算法
-        // tmp = a;
-        // a = b ;
-        // b = tmp ;
-        a = a^b;//按位异或
-        b = a^b;
-        a = a^b;
-        System.out.println(a);
-        System.out.println(b);
-    }
-    
+package Shape;
+
+public class Test {
+	public static void main (String[] args) {
+		Cricle A = new Cricle(3);
+		   Rectangle B = new Rectangle(2.00, 3.00);
+		   Caulate C = new Caulate( );
+		  System.out.println(A.area());
+		  System.out.println(B.area());
+		  System.out.println(C.cal(A));
+		  System.out.println(C.cal(B));
+		 
+	}
 }
